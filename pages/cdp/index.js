@@ -172,7 +172,7 @@ function CDP({ changeTheme }) {
               Unit
             </Typography>
             <div className={classes.fillerText}>
-              <Typography>Yearn CDP's are powered by Unit Protocol</Typography>
+              <Typography>RABSON CDP's are powered by Unit Protocol</Typography>
               <a href="https://docs.unit.xyz/" target="_blank">
                 <Typography>Learn more</Typography>
               </a>
@@ -192,7 +192,7 @@ function CDP({ changeTheme }) {
             <Typography variant="h1" className={classes.fillerContent}>
               Start
             </Typography>
-            <Typography className={classes.fillerText}>To get started with Yearn CDPs, click on the asset from the table below and open your CDP.</Typography>
+            <Typography className={classes.fillerText}>To get started with RABSON CDPs, click on the asset from the table below and open your CDP.</Typography>
           </div>
         </Paper>
         <div>

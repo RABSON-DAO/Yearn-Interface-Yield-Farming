@@ -115,7 +115,7 @@ export default function SearchModal(props) {
             autoHighlight
             getOptionLabel={(option) => `${option.displayName} (${BigNumber(option.apy?.recommended).times(100).toFixed(2)}% APY)`}
             renderInput={(params) => (
-              <TextField {...params} fullWidth={true} label="Search vaults and assets through out yearn.fi" autoFocus={true} variant="outlined" />
+              <TextField {...params} fullWidth={true} label="Search vaults and assets through out RABSON.fi" autoFocus={true} variant="outlined" />
             )}
             onChange={(e, v) => {
               handleNavigate(v);

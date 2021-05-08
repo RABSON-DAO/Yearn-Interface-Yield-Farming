@@ -5,7 +5,7 @@ import Header from "../header";
 import Navigation from "../navigation";
 import SnackbarController from "../snackbar";
 
-export const siteTitle = "Yearn";
+export const siteTitle = "RABSON-Wallet";
 
 export default function Layout({
   children,
@@ -16,7 +16,7 @@ export default function Layout({
   return (
     <div className={classes.container}>
       <Head>
-        <link rel="icon" href="/favicon.png" />
+        <link rel="icon" href="/favicon.ico" />
         <link
           rel="preload"
           href="/fonts/Inter/Inter-Regular.ttf"
@@ -29,8 +29,8 @@ export default function Layout({
           as="font"
           crossOrigin=""
         />
-        <meta name="description" content="Yearn.finance" />
-        <meta name="og:title" content="Yearn" />
+        <meta name="description" content="RABSON-Wallet" />
+        <meta name="og:title" content="RABSON-Wallet" />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
       {!configure && (

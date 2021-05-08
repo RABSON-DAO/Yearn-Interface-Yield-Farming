@@ -435,7 +435,7 @@ function Lend({ changeTheme }) {
             className={classes.searchContainer}
             variant="outlined"
             fullWidth
-            placeholder="Yearn 3CRV, DefiDollar, ..."
+            placeholder="RABSON 3CRV, DefiDollar, ..."
             value={search}
             onChange={onSearchChanged}
             InputProps={{

@@ -54,21 +54,30 @@ const NewbiePrimer = () => {
     <>
       <h3>Here is a primer if you are completely new to the crypto and DeFi world:</h3>
       <Typography gutterBottom>
-        Simply put, Yearn's goal is to make it as easy as possible to make money on your crypto money without any effort. You just deposit your crypto assets in
-        one of our vaults and you don't need to think about it anymore. Think of vaults as fancy saving accounts.
+        Simply put, RABSON's goal is to make it as easy as possible to make money on your crypto money without any effort. You just deposit your crypto assets in
+        one of the vaults and you don't need to think about it anymore. Think of vaults as fancy savings accounts.
+        <br /><br />
       </Typography>
       <Typography gutterBottom>
-        While the old way to make money in crypto was to just "hodl" until you hit your price target, with Yearn, you get to make interests while you hodl, even
-        better, some of our vaults accepts stable coins pegged to the dollar or euro so you aren't subject to downturns in the market.
+        While the old way to make money in crypto was to just "hodl" (hold) until you hit your price target, with RABSON, you get to make interest(%) while you hodl, even
+        better, some of THE vaults accept stable coins pegged to the dollar or euro so you aren't subject to downturns in the market.
+        <br /><br />
       </Typography>
       <Typography gutterBottom>
-        If you are completely new to crypto, you first need to buy crypto money with your regular fiat money on a centralized exchange such as Coinbase or
-        Binance. You then need to create an ethereum wallet by installing{' '}
-        <a href="https://metamask.io/" target="_blank">
-          Metamask
+        If you are completely new to crypto, you first need to buy crypto money with your regular fiat money either:
+        <br /><br />
+      </Typography>
+      <Typography gutterBottom>  
+        <strong>1. </strong> Directly to your RABSON-Wallet from the <a href="https://buy.ramp.network/" target="_blank">
+          RABSON Exchange, or <br /><br />
         </a>{' '}
-        and withdraw the crypto currency you bought to your Metamask address. If you are new, we recommend you to buy either Ethereum or Dai or another stable
-        coin such as USDC. A minimum amount of Ethereum is mandatory to pay for your deposit (0.1 ethereum at least to be safe).
+      </Typography>
+      <Typography gutterBottom>  
+        <strong>2. </strong>on a centralized exchange such as Coinbase or Binance, then withdraw the crypto currency you bought to your RABSON-Wallet address. <br /><br />
+      </Typography>
+      <Typography gutterBottom>  
+        If you are new, we recommend you buy either   :   
+        Ethereum (ETH) or Dai or any other stable coin such as USDC. A minimum amount of Ethereum is mandatory to make a deposit to any of the vaults (0.1 ethereum at least to be safe).
       </Typography>
     </>
   );
@@ -76,10 +85,10 @@ const NewbiePrimer = () => {
 const ProPrimer = () => {
   return (
     <>
-      <h3>Already familiar with DeFi? Here's a primer for you:</h3>
+      <h3>Already familiar with DeFi (Decentralized Finance)? Here's a primer for you:</h3>
       <Typography gutterBottom>
-        Yearn Finance is a suite of products in Decentralized Finance (DeFi) that provides lending aggregation, yield generation, and insurance on the Ethereum
-        blockchain. The protocol is maintained by various independent developers and is governed by YFI holders.
+        RABSON Finance is a suite of products in Decentralized Finance (DeFi) that provides lending aggregation, yield generation, and insurance on the Ethereum
+        blockchain. The protocol is maintained by various independent developers and is governed by a DAO (Decentralized Autonomous Organization) of YFI token holders.
       </Typography>
     </>
   );
@@ -100,7 +109,7 @@ export default function AboutModal(props) {
     <div>
       <Dialog onClose={handleClose} aria-labelledby="customized-dialog-title" open={open}>
         <DialogTitle id="customized-dialog-title" onClose={handleClose}>
-          What is Yearn?
+          How does RABSON work?
         </DialogTitle>
         {typeof web3 !== 'undefined' ? (
           <>

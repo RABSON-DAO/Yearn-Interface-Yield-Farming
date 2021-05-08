@@ -185,7 +185,7 @@ function Header(props) {
         startIcon={<HelpIcon />}
         onClick={() => setToggleAboutModal(!toggleAboutModal)}
       >
-        <Typography variant="h5">What is yearn?</Typography>
+        <Typography variant="h5">How does it work?</Typography>
       </Button>
       <Button disableElevation className={classes.accountButton} variant="contained" color="secondary" onClick={onAddressClicked}>
         {account && account.address && <div className={`${classes.accountIcon} ${classes.metamask}`}></div>}
